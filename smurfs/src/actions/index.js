@@ -4,6 +4,8 @@ export const GET_DATA_SUCCESS = "DATA_SUCCESS";
 export const GET_DATA_FAIL = "DATA_FAIL";
 export const DISPLAY_ALL_SMURFS = "DISPLAY_ALL_SMURFS";
 
+//CODEGRADE IS STILL NOT WORKING
+
 export const getData = () => (dispatch) => {
   dispatch({ type: GET_DATA_START });
   axios
